@@ -1,0 +1,55 @@
+.top{
+    background-color: rgb(132, 235, 235);
+    background-image: url('../images/banner.jpg');
+    /* height: 200px; */
+    text-align: center;
+    /* background-size: cover; */
+    margin-bottom: 20px;
+    /* padding-left: 40px; */
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#my{
+    color: white;
+}
+#name{
+    color: brown;
+}
+.flex-parent{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.flex-child{
+    flex: 1;
+    padding: 30px;
+    text-align: justify;
+}
+#img{
+    width: 80%;
+    height: 80%;
+    margin-left: 40px;
+}
+.flex-child p{
+    margin-right: 40px;
+}
+.flex-first{
+    
+    background-color: hsl(0, 36%, 96%);
+}
+#scene{
+    width: 90%;
+    height: 90%;
+}
+.flex-second{
+    background-color: hsl(80, 40%, 97%);
+}
+.copy small{
+    display: inline-block;
+    padding-inline: 200px;
+}
+footer{
+    color: white;
+    background-color: #527dff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
